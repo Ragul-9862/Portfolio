@@ -1,5 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  externals: {
+
+    canvg: "canvg",
+    html2canvas: "html2canvas",
+    dompurify: "dompurify"
+  },
+  darkMode:"class",
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
