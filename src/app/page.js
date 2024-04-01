@@ -269,7 +269,7 @@ export default function Home() {
                   className="rounded-lg object-cover "
                   src="./assets/web3.png"
                   alt="Your Alt Text"
-                  width={200}
+             
                 />{" "}
               </a>
             </div>
