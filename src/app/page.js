@@ -263,12 +263,13 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <a target="blank" href="https://touristertour.netlify.app/">
+              <a target="blank" href="https://sdmbikes-final.vercel.app/">
                 {" "}
                 <Image
                   className="rounded-lg object-cover "
                   src="./assets/web3.png"
                   alt="Your Alt Text"
+                  width={200}
                 />{" "}
               </a>
             </div>
